@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-lg-12 text-center">
+         <h1>
+           Train Booking System
+         </h1>
+         <br>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+         <h6 class="text-primary">
+          Train Name: {{ trainName }}
+         </h6>
+    </div>
+    <div class="col-lg-6">
+      <button type="button" class="btn btn-success" (click)="bookTicket()">Book Ticket</button>
+      <button type="button" class="btn btn-danger"  (click)="avalTicket()">Cancel Ticket</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h6 class="text-success">
+        Aval Ticket: {{ AvalTicket }}
+      </h6>
+    </div>
+    
+  </div>
+</div>
